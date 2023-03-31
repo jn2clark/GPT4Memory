@@ -12,6 +12,8 @@ Feel free to contribute.
 
 ### Compile
 ```
+git clone https://github.com/jn2clark/GPT4Memory.git
+cd m2
 as -o vector_database.o vector_database.s
 clang -shared -o vector_database.dylib vector_database.o -lc
 ```
